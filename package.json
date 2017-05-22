@@ -4,7 +4,7 @@
   "description": "Example project with React + Enzyme + Mocha",
   "main": "build/index.js",
   "scripts": {
-    "test": "mocha test/.setup.js test/**/*-test.js"
+    "test": "mocha test/.setup.js test"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lelandrichardson/enzyme-example-mocha",
   "devDependencies": {
+    "assert": "^1.4.1",
     "babel": "^6.3.26",
     "babel-preset-airbnb": "^1.0.1",
     "babel-register": "^6.4.3",
